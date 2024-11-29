@@ -28,7 +28,7 @@ body {
   
 }
 .btn.btn-raised.btn-primary {
-  background-color: #00838f !important;
+  background-color: #1aaebb !important;
   font-size: 16px;
   width: 100%;
   padding: 15px;
@@ -62,8 +62,19 @@ body {
 .contenido-formulario {
   margin-top: 30px;
 }
-#cotizar-seguro {
-  padding: 0 10px;
+#cotizar-seguro-btn {
+  background-color: #1e90ff; /* Azul */
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+#cotizar-seguro-btn:hover {
+  background-color: #4682b4;
 }
 #cargando {
   text-align: center;
@@ -76,7 +87,7 @@ body {
   margin-bottom: 40px;
 }
 #resultado div {
-  border: 1px solid #26c6da;
+  border: 1px solid #000000;
   text-align: center;
   padding: 0 0 20px 0;
 }
